@@ -7,12 +7,13 @@
     <title>@yield('title') | {{ config('lantanahouse.business.name') }}</title>
     <meta name="description" content="@yield('description', config('lantanahouse.business.description'))">
     <link rel="canonical" href="{{ url()->current() }}">
-    @php
-        $faviconPath = public_path('favicon.ico');
-        $faviconUrl = route('favicon').(is_file($faviconPath) ? '?v='.filemtime($faviconPath) : '');
-    @endphp
-    <link rel="icon" href="{{ $faviconUrl }}" sizes="any">
-    <link rel="shortcut icon" href="{{ $faviconUrl }}" type="image/x-icon">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon/favicon-16x16.png') }}">
+    <link rel="shortcut icon" href="{{ asset('favicon/favicon.ico') }}">
+    <link rel="manifest" href="{{ asset('favicon/site.webmanifest') }}">
+    <!-- Open Graph -->
     @php
         $ogImage = trim(view()->yieldContent('og_image', config('lantanahouse.og_image')));
         $ogImageUrl = \Illuminate\Support\Str::startsWith($ogImage, ['http://', 'https://']) ? $ogImage : url($ogImage);
