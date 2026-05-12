@@ -7,7 +7,12 @@
     <title>@yield('title') | {{ config('lantanahouse.business.name') }}</title>
     <meta name="description" content="@yield('description', config('lantanahouse.business.description'))">
     <link rel="canonical" href="{{ url()->current() }}">
-    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+    @php
+        $faviconPath = public_path('favicon.ico');
+        $faviconUrl = route('favicon').(is_file($faviconPath) ? '?v='.filemtime($faviconPath) : '');
+    @endphp
+    <link rel="icon" href="{{ $faviconUrl }}" sizes="any">
+    <link rel="shortcut icon" href="{{ $faviconUrl }}" type="image/x-icon">
     @php
         $ogImage = trim(view()->yieldContent('og_image', config('lantanahouse.og_image')));
         $ogImageUrl = \Illuminate\Support\Str::startsWith($ogImage, ['http://', 'https://']) ? $ogImage : url($ogImage);

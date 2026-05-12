@@ -4,6 +4,18 @@ use App\Http\Controllers\InquiryController;
 use App\Http\Controllers\LocaleController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+
+Route::get('/favicon.ico', function (): BinaryFileResponse {
+    $path = public_path('favicon.ico');
+
+    abort_unless(is_file($path), 404);
+
+    return response()->file($path, [
+        'Content-Type' => 'image/x-icon',
+        'Cache-Control' => 'public, max-age=86400',
+    ]);
+})->name('favicon');
 
 Route::get('/locale/{locale}', LocaleController::class)->name('locale.switch');
 

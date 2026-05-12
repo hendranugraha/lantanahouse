@@ -6,7 +6,7 @@ return [
 
     'contact_email' => env('LANTANA_CONTACT_EMAIL', 'info@lantana.house'),
 
-    'instagram_url' => env('LANTANA_INSTAGRAM_URL', 'https://instagram.com/lantanahouse'),
+    'instagram_url' => env('LANTANA_INSTAGRAM_URL', 'https://instagram.com/thelantana.house'),
 
     'maps_url' => env('LANTANA_MAPS_URL', 'https://maps.app.goo.gl/3MDmDnrA44JdchK68'),
 
