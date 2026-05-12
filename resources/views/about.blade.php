@@ -5,7 +5,7 @@
 
 @section('content')
     <section class="pt-0 pb-12 md:pt-8 md:pb-16 bg-white">
-        <section class="relative h-dvh w-full overflow-hidden rounded-none mb-6 md:mb-12">
+        <section class="relative h-screen h-dvh w-full overflow-hidden rounded-none mb-6 md:mb-12">
             <video class="absolute inset-0 w-full h-full object-cover scale-[1.2] md:scale-[1.15]" autoplay muted loop playsinline preload="metadata">
                 <source src="{{ asset('video2.mp4') }}" type="video/mp4">
             </video>

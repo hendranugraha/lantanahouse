@@ -4,7 +4,7 @@
 @section('description', __('room_tour.meta_description'))
 
 @section('content')
-    <section class="relative h-dvh w-full overflow-hidden bg-[#3D2B1F]">
+    <section class="relative h-screen h-dvh w-full overflow-hidden bg-[#3D2B1F]">
         <video class="absolute inset-0 w-full h-full object-cover scale-[1.2] md:scale-[1.15]" autoplay muted loop playsinline preload="metadata">
             <source src="{{ asset('video3.mp4') }}" type="video/mp4">
         </video>

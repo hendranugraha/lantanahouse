@@ -4,7 +4,7 @@
 @section('description', __('contact.meta_description'))
 
 @section('content')
-    <section class="relative h-dvh w-full overflow-hidden bg-[#3D2B1F]">
+    <section class="relative h-screen h-dvh w-full overflow-hidden bg-[#3D2B1F]">
         <img src="{{ asset('book-bg.jpg') }}" alt="{{ __('contact.hero_alt') }}" class="absolute inset-0 w-full h-full object-cover" style="opacity: 0.5;" fetchpriority="high" decoding="async" sizes="100vw">
         <div class="absolute inset-0 bg-black/30"></div>
         <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4 w-full">
@@ -96,6 +96,7 @@
                 const token = document.querySelector('meta[name="csrf-token"]');
                 const res = await fetch(window.LANTANA.inquiryUrl, {
                     method: 'POST',
+                    credentials: 'same-origin',
                     headers: {
                         'Content-Type': 'application/json',
                         'Accept': 'application/json',

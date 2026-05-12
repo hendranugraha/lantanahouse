@@ -12,9 +12,10 @@ function setMobileMenuOpen(open) {
     if (menuClose) menuClose.classList.toggle('hidden', !mobileMenuOpen);
     if (btn) {
         btn.setAttribute('aria-expanded', mobileMenuOpen ? 'true' : 'false');
+        const i18n = window.LANTANA_I18N;
         btn.setAttribute('aria-label', mobileMenuOpen
-            ? (window.LANTANA_I18N?.nav_menu_close || 'Close menu')
-            : (window.LANTANA_I18N?.nav_menu_open || 'Open menu'));
+            ? ((i18n && i18n.nav_menu_close) || 'Close menu')
+            : ((i18n && i18n.nav_menu_open) || 'Open menu'));
     }
 }
 

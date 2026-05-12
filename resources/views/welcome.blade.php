@@ -4,7 +4,7 @@
 @section('description', __('welcome.meta_description'))
 
 @section('content')
-    <section class="relative h-dvh flex items-center justify-center overflow-hidden">
+    <section class="relative h-screen h-dvh flex items-center justify-center overflow-hidden">
         <div id="hero-slides" class="absolute inset-0">
             <img src="{{ asset('SLZ00365.jpg') }}" class="slide absolute inset-0 w-full h-full object-cover" alt="{{ __('welcome.slide_alt') }}" fetchpriority="high" decoding="async" sizes="100vw">
             <img src="{{ asset('SLZ00373.jpg') }}" class="slide absolute inset-0 w-full h-full object-cover" alt="" style="opacity: 0;" loading="lazy" decoding="async" sizes="100vw">
