@@ -7,7 +7,7 @@
     <title>@yield('title') | {{ config('lantanahouse.business.name') }}</title>
     <meta name="description" content="@yield('description', config('lantanahouse.business.description'))">
     <link rel="canonical" href="{{ url()->current() }}">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
     @php
         $ogImage = trim(view()->yieldContent('og_image', config('lantanahouse.og_image')));
         $ogImageUrl = \Illuminate\Support\Str::startsWith($ogImage, ['http://', 'https://']) ? $ogImage : url($ogImage);
@@ -90,7 +90,7 @@
 <body class="bg-[#FDFBF7] text-[#3D2B1F] font-sans antialiased">
     <nav id="main-nav" class="fixed top-0 left-0 right-0 z-50 bg-[#E8E0D5]/95 backdrop-blur-sm border-b border-white transition-all duration-500">
         <div class="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between gap-4">
-            <a href="{{ route('home') }}" class="block w-24 shrink-0 rounded focus:outline-none focus-visible:ring-2 focus-visible:ring-[#8B7355] focus-visible:ring-offset-2"><img src="/logo.png" alt="{{ config('lantanahouse.business.name') }}" class="w-full" width="96" height="48" decoding="async"></a>
+            <a href="{{ route('home') }}" class="block w-24 shrink-0 rounded focus:outline-none focus-visible:ring-2 focus-visible:ring-[#8B7355] focus-visible:ring-offset-2"><img src="{{ asset('logo.png') }}" alt="{{ config('lantanahouse.business.name') }}" class="w-full" width="96" height="48" decoding="async"></a>
             <div class="hidden md:flex items-center gap-6 lg:gap-10 text-xs uppercase tracking-widest">
                 <a href="{{ route('about') }}" class="text-[#9C8B7A] hover:text-[#3D2B1F] transition rounded px-1 py-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#8B7355]">{{ __('nav.about') }}</a>
                 <a href="{{ route('facilities') }}" class="text-[#9C8B7A] hover:text-[#3D2B1F] transition rounded px-1 py-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#8B7355]">{{ __('nav.facilities') }}</a>

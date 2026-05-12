@@ -4,8 +4,8 @@
 @section('description', __('our_location.meta_description'))
 
 @section('content')
-    <section class="relative h-screen w-full overflow-hidden bg-[#3D2B1F]">
-        <img src="/location-bg.jpg" alt="{{ __('our_location.hero_alt') }}" class="absolute inset-0 w-full h-full object-cover" style="opacity: 0.5;" fetchpriority="high" decoding="async" sizes="100vw">
+    <section class="relative h-dvh w-full overflow-hidden bg-[#3D2B1F]">
+        <img src="{{ asset('location-bg.jpg') }}" alt="{{ __('our_location.hero_alt') }}" class="absolute inset-0 w-full h-full object-cover" style="opacity: 0.5;" fetchpriority="high" decoding="async" sizes="100vw">
         <div class="absolute inset-0 bg-black/30"></div>
         <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4 w-full">
             <h1 class="font-serif text-4xl md:text-6xl font-light mb-4 opacity-0 fade-in delay-1">{{ __('our_location.hero_title') }}</h1>
@@ -18,7 +18,7 @@
             <p class="text-stone-600 text-center max-w-2xl mx-auto mb-12 leading-relaxed">{{ __('our_location.intro') }}</p>
 
             <div class="w-full h-[400px] md:h-[500px] rounded-lg overflow-hidden relative bg-[#E8E0D5] mb-12">
-                <img src="/map-bg.jpg" alt="{{ __('our_location.map_alt') }}" class="w-full h-full object-cover opacity-50" loading="lazy" decoding="async" sizes="100vw">
+                <img src="{{ asset('map-bg.jpg') }}" alt="{{ __('our_location.map_alt') }}" class="w-full h-full object-cover opacity-50" loading="lazy" decoding="async" sizes="100vw">
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="bg-white px-8 py-6 rounded-lg text-center shadow-lg">
                         <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-[#3D2B1F] flex items-center justify-center">

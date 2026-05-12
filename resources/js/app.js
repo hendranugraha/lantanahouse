@@ -47,7 +47,10 @@ function toggleVideo() {
             nav.classList.add('-translate-y-full', 'opacity-0');
         }
         video.currentTime = 0;
-        video.play();
+        const p = video.play();
+        if (p !== undefined) {
+            p.catch(() => {});
+        }
     } else {
         video.pause();
         video.currentTime = 0;

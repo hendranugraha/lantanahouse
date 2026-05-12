@@ -4,8 +4,8 @@
 @section('description', __('contact.meta_description'))
 
 @section('content')
-    <section class="relative h-screen w-full overflow-hidden bg-[#3D2B1F]">
-        <img src="/book-bg.jpg" alt="{{ __('contact.hero_alt') }}" class="absolute inset-0 w-full h-full object-cover" style="opacity: 0.5;" fetchpriority="high" decoding="async" sizes="100vw">
+    <section class="relative h-dvh w-full overflow-hidden bg-[#3D2B1F]">
+        <img src="{{ asset('book-bg.jpg') }}" alt="{{ __('contact.hero_alt') }}" class="absolute inset-0 w-full h-full object-cover" style="opacity: 0.5;" fetchpriority="high" decoding="async" sizes="100vw">
         <div class="absolute inset-0 bg-black/30"></div>
         <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4 w-full">
             <h1 class="font-serif text-4xl md:text-6xl font-light mb-4 text-white opacity-0 fade-in delay-1">{{ __('contact.hero_title') }}</h1>

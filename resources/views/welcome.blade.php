@@ -4,17 +4,17 @@
 @section('description', __('welcome.meta_description'))
 
 @section('content')
-    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+    <section class="relative h-dvh flex items-center justify-center overflow-hidden">
         <div id="hero-slides" class="absolute inset-0">
-            <img src="/SLZ00365.jpg" class="slide absolute inset-0 w-full h-full object-cover" alt="{{ __('welcome.slide_alt') }}" fetchpriority="high" decoding="async" sizes="100vw">
-            <img src="/SLZ00373.jpg" class="slide absolute inset-0 w-full h-full object-cover" alt="" style="opacity: 0;" loading="lazy" decoding="async" sizes="100vw">
-            <img src="/SLZ00383.jpg" class="slide absolute inset-0 w-full h-full object-cover" alt="" style="opacity: 0;" loading="lazy" decoding="async" sizes="100vw">
-            <img src="/SLZ00393.jpg" class="slide absolute inset-0 w-full h-full object-cover" alt="" style="opacity: 0;" loading="lazy" decoding="async" sizes="100vw">
-            <img src="/SLZ00402.jpg" class="slide absolute inset-0 w-full h-full object-cover" alt="" style="opacity: 0;" loading="lazy" decoding="async" sizes="100vw">
+            <img src="{{ asset('SLZ00365.jpg') }}" class="slide absolute inset-0 w-full h-full object-cover" alt="{{ __('welcome.slide_alt') }}" fetchpriority="high" decoding="async" sizes="100vw">
+            <img src="{{ asset('SLZ00373.jpg') }}" class="slide absolute inset-0 w-full h-full object-cover" alt="" style="opacity: 0;" loading="lazy" decoding="async" sizes="100vw">
+            <img src="{{ asset('SLZ00383.jpg') }}" class="slide absolute inset-0 w-full h-full object-cover" alt="" style="opacity: 0;" loading="lazy" decoding="async" sizes="100vw">
+            <img src="{{ asset('SLZ00393.jpg') }}" class="slide absolute inset-0 w-full h-full object-cover" alt="" style="opacity: 0;" loading="lazy" decoding="async" sizes="100vw">
+            <img src="{{ asset('SLZ00402.jpg') }}" class="slide absolute inset-0 w-full h-full object-cover" alt="" style="opacity: 0;" loading="lazy" decoding="async" sizes="100vw">
         </div>
 
-        <video id="hero-video" class="hidden absolute inset-0 w-full h-full object-cover" controls playsinline>
-            <source src="/video.mp4" type="video/mp4">
+        <video id="hero-video" class="hidden absolute inset-0 w-full h-full object-cover" controls playsinline preload="metadata">
+            <source src="{{ asset('video.mp4') }}" type="video/mp4">
         </video>
 
         <div id="hero-overlay" class="absolute inset-0 bg-[#8B7355]/40"></div>
@@ -43,9 +43,9 @@
                     <p class="text-stone-600 leading-relaxed">{{ __('welcome.villa_p2') }}</p>
                 </div>
                 <div class="relative w-4/5 mx-auto h-[550px] overflow-hidden" style="border-radius: 250px 250px 0 0;">
-                    <img id="about-slide-0" src="/SLZ00373.jpg" alt="{{ __('welcome.about_slide_alt') }}" class="absolute inset-0 w-full h-full object-cover" decoding="async" sizes="(max-width: 768px) 100vw, 40vw">
-                    <img id="about-slide-1" src="/SLZ00383.jpg" alt="" class="absolute inset-0 w-full h-full object-cover" style="opacity: 0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 40vw">
-                    <img id="about-slide-2" src="/SLZ00393.jpg" alt="" class="absolute inset-0 w-full h-full object-cover" style="opacity: 0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 40vw">
+                    <img id="about-slide-0" src="{{ asset('SLZ00373.jpg') }}" alt="{{ __('welcome.about_slide_alt') }}" class="absolute inset-0 w-full h-full object-cover" decoding="async" sizes="(max-width: 768px) 100vw, 40vw">
+                    <img id="about-slide-1" src="{{ asset('SLZ00383.jpg') }}" alt="" class="absolute inset-0 w-full h-full object-cover" style="opacity: 0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 40vw">
+                    <img id="about-slide-2" src="{{ asset('SLZ00393.jpg') }}" alt="" class="absolute inset-0 w-full h-full object-cover" style="opacity: 0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 40vw">
                 </div>
             </div>
         </div>
@@ -127,7 +127,7 @@
     </section>
 
     <section class="relative py-20 md:py-28 bg-[#3D2B1F] overflow-hidden">
-        <img src="/book-bg.jpg" alt="" class="absolute inset-0 w-full h-full object-cover" style="opacity: 0.5;" loading="lazy" decoding="async" sizes="100vw">
+        <img src="{{ asset('book-bg.jpg') }}" alt="" class="absolute inset-0 w-full h-full object-cover" style="opacity: 0.5;" loading="lazy" decoding="async" sizes="100vw">
         <div class="relative z-10 max-w-7xl mx-auto px-6 text-center">
             <p class="text-xs uppercase tracking-widest text-white/70 mb-4 opacity-0 fade-in delay-1">{{ __('welcome.cta_kicker') }}</p>
             <h2 class="font-serif text-4xl md:text-5xl font-light mb-6 text-white opacity-0 fade-in delay-2">{{ __('welcome.cta_heading') }}</h2>
