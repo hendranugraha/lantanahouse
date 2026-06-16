@@ -18,7 +18,7 @@ return [
     'kitchen_li3' => 'Microwave & blender',
     'living_title' => 'Ruang Keluarga Luas',
     'living_p' => 'Ruang terbuka yang mengalir ke taman. Sofa nyaman, smart TV, dan hidup dalam-luar yang menyatu.',
-    'living_li1' => 'Smart TV 50"',
+    'living_li1' => 'Smart TV 75"',
     'living_li2' => 'Sistem suara Bluetooth',
     'living_li3' => 'Pemandangan taman',
     'bedrooms_title' => '4 Kamar Tidur',

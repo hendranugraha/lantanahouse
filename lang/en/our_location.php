@@ -18,7 +18,7 @@ return [
     'jakarta_title' => 'From Jakarta',
     'jakarta_sub' => '2-3 hours via toll road',
     'attractions' => 'Nearby Attractions',
-    'attr_padel_title' => 'Padel Court',
+    'attr_padel_title' => 'Padel Hill, Padel View, Pine Padel Club',
     'attr_padel_sub' => '~1 km away',
     'attr_forest_title' => 'Taman Hutan Raya Djuanda',
     'attr_forest_sub' => '~2 km away',

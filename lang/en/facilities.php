@@ -18,7 +18,7 @@ return [
     'kitchen_li3' => 'Microwave & blender',
     'living_title' => 'Spacious Living',
     'living_p' => 'Open-plan living that flows to the garden. Comfortable seating, smart TV, and seamless indoor-outdoor living.',
-    'living_li1' => '50" Smart TV',
+    'living_li1' => '75" Smart TV',
     'living_li2' => 'Bluetooth sound system',
     'living_li3' => 'Garden view',
     'bedrooms_title' => '4 Bedrooms',

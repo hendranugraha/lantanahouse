@@ -20,21 +20,21 @@
             <p class="text-stone-600 text-center max-w-2xl mx-auto mb-12 leading-relaxed">{{ __('room_tour.intro') }}</p>
             <div class="space-y-12">
                 <div class="grid md:grid-cols-2 gap-8 items-center">
-                    <img src="{{ asset('SLZ00423.jpg') }}" alt="{{ __('room_tour.living_alt') }}" class="w-full rounded-lg" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                    <img src="{{ asset('SLZ00516.jpg') }}" alt="{{ __('room_tour.living_alt') }}" class="w-full rounded-lg" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
                     <div>
                         <h3 class="font-serif text-2xl font-light text-stone-900 mb-4">{{ __('room_tour.living_title') }}</h3>
                         <p class="text-stone-600">{{ __('room_tour.living_p') }}</p>
                     </div>
                 </div>
                 <div class="grid md:grid-cols-2 gap-8 items-center">
-                    <img src="{{ asset('SLZ00429.jpg') }}" alt="{{ __('room_tour.master_alt') }}" class="w-full rounded-lg" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                    <img src="{{ asset('bedroom-01.jpg') }}" alt="{{ __('room_tour.master_alt') }}" class="w-full rounded-lg" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
                     <div>
                         <h3 class="font-serif text-2xl font-light text-stone-900 mb-4">{{ __('room_tour.master_title') }}</h3>
                         <p class="text-stone-600">{{ __('room_tour.master_p') }}</p>
                     </div>
                 </div>
                 <div class="grid md:grid-cols-2 gap-8 items-center">
-                    <img src="{{ asset('SLZ00438.jpg') }}" alt="{{ __('room_tour.bath_alt') }}" class="w-full rounded-lg" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                    <img src="{{ asset('bathroom-01.jpg') }}" alt="{{ __('room_tour.bath_alt') }}" class="w-full rounded-lg" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
                     <div>
                         <h3 class="font-serif text-2xl font-light text-stone-900 mb-4">{{ __('room_tour.bath_title') }}</h3>
                         <p class="text-stone-600">{{ __('room_tour.bath_p') }}</p>

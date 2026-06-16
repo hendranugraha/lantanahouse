@@ -122,7 +122,18 @@
                 }
 
                 const phoneNumber = window.LANTANA.whatsapp;
-                const text = `*New Booking Inquiry*\\n\\n*Dates:*\\nCheck-in: ${payload.check_in}\\nCheck-out: ${payload.check_out}\\n\\n*Guest:*\\n${payload.first_name} ${payload.last_name}\\nEmail: ${payload.email}\\nPhone: ${payload.phone}\\n\\n*Message:*\\n${payload.message}`;
+                const text = 
+                `*New Booking Inquiry*
+*Dates:*
+Check-in: ${payload.check_in}
+Check-out: ${payload.check_out}
+                
+*Guest:*
+${payload.first_name} ${payload.last_name}
+Email: ${payload.email}
+Phone: ${payload.phone}
+
+*Message:* ${payload.message}`;
                 const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
                 window.open(url, '_blank', 'noopener,noreferrer');
             } catch (err) {

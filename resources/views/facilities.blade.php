@@ -20,9 +20,9 @@
             <div class="mb-20">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="facility-carousel relative h-80 md:h-96 overflow-hidden rounded-lg">
-                        <img src="{{ asset('SLZ00402.jpg') }}" alt="{{ __('facilities.pool_title') }}" class="facility-img absolute inset-0 w-full h-full object-cover" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
-                        <img src="{{ asset('SLZ00405.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
-                        <img src="{{ asset('SLZ00411.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('pool-01.jpg') }}" alt="{{ __('facilities.pool_title') }}" class="facility-img absolute inset-0 w-full h-full object-cover" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('pool-02.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('pool-03.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
                         <button type="button" class="facility-prev absolute left-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white text-black w-10 h-10 rounded-full flex items-center justify-center transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white" aria-label="{{ __('facilities.prev') }}">&larr;</button>
                         <button type="button" class="facility-next absolute right-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white text-black w-10 h-10 rounded-full flex items-center justify-center transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white" aria-label="{{ __('facilities.next') }}">&rarr;</button>
                         <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2" role="tablist" aria-label="{{ __('facilities.pool_title') }}">
@@ -55,9 +55,9 @@
                         </ul>
                     </div>
                     <div class="facility-carousel relative h-80 md:h-96 overflow-hidden rounded-lg md:order-1">
-                        <img src="{{ asset('SLZ00405.jpg') }}" alt="{{ __('facilities.kitchen_title') }}" class="facility-img absolute inset-0 w-full h-full object-cover" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
-                        <img src="{{ asset('SLZ00408.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
-                        <img src="{{ asset('SLZ00414.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('kitchen-01.jpg') }}" alt="{{ __('facilities.kitchen_title') }}" class="facility-img absolute inset-0 w-full h-full object-cover" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('kitchen-02.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('kitchen-03.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
                         <button type="button" class="facility-prev absolute left-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white text-black w-10 h-10 rounded-full flex items-center justify-center transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white" aria-label="{{ __('facilities.prev') }}">&larr;</button>
                         <button type="button" class="facility-next absolute right-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white text-black w-10 h-10 rounded-full flex items-center justify-center transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white" aria-label="{{ __('facilities.next') }}">&rarr;</button>
                         <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
@@ -72,9 +72,9 @@
             <div class="mb-20">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="facility-carousel relative h-80 md:h-96 overflow-hidden rounded-lg">
-                        <img src="{{ asset('SLZ00408.jpg') }}" alt="{{ __('facilities.living_title') }}" class="facility-img absolute inset-0 w-full h-full object-cover" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
-                        <img src="{{ asset('SLZ00411.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
-                        <img src="{{ asset('SLZ00417.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('spacious-01.jpg') }}" alt="{{ __('facilities.living_title') }}" class="facility-img absolute inset-0 w-full h-full object-cover" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('spacious-02.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('spacious-03.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
                         <button type="button" class="facility-prev absolute left-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white text-black w-10 h-10 rounded-full flex items-center justify-center transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white" aria-label="{{ __('facilities.prev') }}">&larr;</button>
                         <button type="button" class="facility-next absolute right-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white text-black w-10 h-10 rounded-full flex items-center justify-center transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white" aria-label="{{ __('facilities.next') }}">&rarr;</button>
                         <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
@@ -107,9 +107,9 @@
                         </ul>
                     </div>
                     <div class="facility-carousel relative h-80 md:h-96 overflow-hidden rounded-lg md:order-1">
-                        <img src="{{ asset('SLZ00414.jpg') }}" alt="{{ __('facilities.bedrooms_title') }}" class="facility-img absolute inset-0 w-full h-full object-cover" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
-                        <img src="{{ asset('SLZ00417.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
-                        <img src="{{ asset('SLZ00405.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('bedroom-01.jpg') }}" alt="{{ __('facilities.bedrooms_title') }}" class="facility-img absolute inset-0 w-full h-full object-cover" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('bedroom-02.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('bedroom-03.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
                         <button type="button" class="facility-prev absolute left-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white text-black w-10 h-10 rounded-full flex items-center justify-center transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white" aria-label="{{ __('facilities.prev') }}">&larr;</button>
                         <button type="button" class="facility-next absolute right-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white text-black w-10 h-10 rounded-full flex items-center justify-center transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white" aria-label="{{ __('facilities.next') }}">&rarr;</button>
                         <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
@@ -124,9 +124,9 @@
             <div class="mb-20">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="facility-carousel relative h-80 md:h-96 overflow-hidden rounded-lg">
-                        <img src="{{ asset('SLZ00417.jpg') }}" alt="{{ __('facilities.bathrooms_title') }}" class="facility-img absolute inset-0 w-full h-full object-cover" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
-                        <img src="{{ asset('SLZ00402.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
-                        <img src="{{ asset('SLZ00405.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('bathroom-01.jpg') }}" alt="{{ __('facilities.bathrooms_title') }}" class="facility-img absolute inset-0 w-full h-full object-cover" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('bathroom-02.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('bathroom-03.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
                         <button type="button" class="facility-prev absolute left-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white text-black w-10 h-10 rounded-full flex items-center justify-center transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white" aria-label="{{ __('facilities.prev') }}">&larr;</button>
                         <button type="button" class="facility-next absolute right-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white text-black w-10 h-10 rounded-full flex items-center justify-center transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white" aria-label="{{ __('facilities.next') }}">&rarr;</button>
                         <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
@@ -159,9 +159,9 @@
                         </ul>
                     </div>
                     <div class="facility-carousel relative h-80 md:h-96 overflow-hidden rounded-lg md:order-1">
-                        <img src="{{ asset('SLZ00411.jpg') }}" alt="{{ __('facilities.outdoor_title') }}" class="facility-img absolute inset-0 w-full h-full object-cover" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
-                        <img src="{{ asset('SLZ00414.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
-                        <img src="{{ asset('SLZ00402.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('outdoor-01.jpg') }}" alt="{{ __('facilities.outdoor_title') }}" class="facility-img absolute inset-0 w-full h-full object-cover" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('outdoor-02.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
+                        <img src="{{ asset('outdoor-03.jpg') }}" alt="" class="facility-img absolute inset-0 w-full h-full object-cover" style="opacity:0;" loading="lazy" decoding="async" sizes="(max-width: 768px) 100vw, 50vw">
                         <button type="button" class="facility-prev absolute left-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white text-black w-10 h-10 rounded-full flex items-center justify-center transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white" aria-label="{{ __('facilities.prev') }}">&larr;</button>
                         <button type="button" class="facility-next absolute right-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white text-black w-10 h-10 rounded-full flex items-center justify-center transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white" aria-label="{{ __('facilities.next') }}">&rarr;</button>
                         <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
